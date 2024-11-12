@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* General styling for the body and header */
+body {
+    /* Font for the entire page */
+    font-family: Arial, sans-serif; 
+    /* Light grey background color */
+    background-color: #f0f0f0; 
+    /* Remove default margin */
+    margin: 0; 
+     /* Remove default padding */
+    padding: 0; 
+    /* Use flexbox for easy centering */
+    display: flex; 
+    /* Arrange items vertically */
+    flex-direction: column; 
+     /* Center items horizontally */
+    align-items: center; 
+     /* Center items vertically */
+    justify-content: center; 
+     /* Make sure the body takes the full height of the viewport */
+    min-height: 100vh;
+}
+
+h1 {
+    /* Dark grey color for the header text */
+    color: #333; 
+    /* Space below the header */
+    margin-bottom: 20px; 
+}
+
+/* Styling for the car details display */
+.car-display {
+    /* White background for the car details */
+    background-color: #fff; 
+    /* Light grey border around the car details */
+    border: 1px solid #ccc; 
+    /* Rounded corners for the car display box */
+    border-radius: 8px; 
+    /* Padding inside the car display box */
+    padding: 20px; 
+    /* Fixed width for the car display */
+    width: 300px; 
+    /* Add a slight shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     /* Space below the car display box */
+    margin-bottom: 20px; 
+}
+
+.car-display h2 {
+    /* Blue color for the car model title */
+    color: #0073e6; 
+    /* Space below the title */
+    margin-bottom: 10px; 
+}
+
+.car-display p {
+    /* Space between paragraphs */
+    margin: 5px 0; 
+     /* Medium grey color for the paragraph text */
+    color: #555; 
+}
+
+/* Styling for the car controls */
+.car-controls {
+     /* Use flexbox for button layout */
+    display: flex; 
+     /* Space between the buttons */
+    gap: 10px; 
+}
+
+button {
+    /* Padding inside the buttons */
+    padding: 10px 20px;
+    /* Remove default border */
+    border: none; 
+    /* Blue background color for buttons */
+    background-color: #0073e6; 
+    /* White text color for buttons */
+    color: #fff; 
+    /* Rounded corners for the buttons */
+    border-radius: 5px; 
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Smooth transition for hover effect */
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    /* Darker blue background on hover */
+    background-color: #005bb5; 
+}
