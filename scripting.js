@@ -36,3 +36,12 @@ const myCar = new ToyCar(
     "79035WL-MMT-BLUE", // Corrected SKU
     "694365739707", 
     "Window Box"
+// Array of images for different views of the car
+let images = [
+    "carImage/Carfront.jpg",
+    "carImage/Carside.jpg",
+    "carImage/Carback.jpg",
+    "carImage/Carangle.jpg",
+    "carImage/Carside2.jpg",
+    "carImage/CarinBox.jpg",
+    "carImage/CarinBox2.jpg"
