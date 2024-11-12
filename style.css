@@ -45,3 +45,8 @@ body {
     color: #0073e6; 
     /* Space below the title */
     margin-bottom: 10px; 
+.car-display p {
+    /* Space between paragraphs */
+    margin: 5px 0; 
+     /* Medium grey color for the paragraph text */
+    color: #555; 
