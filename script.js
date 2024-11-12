@@ -5,7 +5,7 @@ function ToyCar(model, brand, color, price, length, width, height, weight, mater
     this.brand = brand;
     this.color = color;
     this.price = price;
-    this.dimensions = {
+    this.dimensions = { 
         length: length,
         width: width,
         height: height

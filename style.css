@@ -1,0 +1,20 @@
+/* General styling for the body and header */
+body {
+    /* Font for the entire page */
+    font-family: Arial, sans-serif; 
+    /* Light grey background color */
+    background-color: #f0f0f0; 
+    /* Remove default margin */
+    margin: 0; 
+     /* Remove default padding */
+    padding: 0; 
+    /* Use flexbox for easy centering */
+    display: flex; 
+    /* Arrange items vertically */
+    flex-direction: column; 
+     /* Center items horizontally */
+    align-items: center; 
+     /* Center items vertically */
+    justify-content: center; 
+     /* Make sure the body takes the full height of the viewport */
+    min-height: 100vh;
