@@ -45,3 +45,7 @@ let images = [
     "carImage/Carside2.jpg",
     "carImage/CarinBox.jpg",
     "carImage/CarinBox2.jpg"
+// Function to change car image to different views
+function changeImage() {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    document.querySelector(".car-display img").src = images[currentImageIndex];
