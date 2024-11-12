@@ -40,3 +40,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
      /* Space below the car display box */
     margin-bottom: 20px; 
+.car-display h2 {
+    /* Blue color for the car model title */
+    color: #0073e6; 
+    /* Space below the title */
+    margin-bottom: 10px; 
