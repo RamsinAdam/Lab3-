@@ -24,3 +24,19 @@ body {
     color: #333; 
     /* Space below the header */
     margin-bottom: 20px; 
+/* Styling for the car details display */
+.car-display {
+    /* White background for the car details */
+    background-color: #fff; 
+    /* Light grey border around the car details */
+    border: 1px solid #ccc; 
+    /* Rounded corners for the car display box */
+    border-radius: 8px; 
+    /* Padding inside the car display box */
+    padding: 20px; 
+    /* Fixed width for the car display */
+    width: 300px; 
+    /* Add a slight shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+     /* Space below the car display box */
+    margin-bottom: 20px; 
